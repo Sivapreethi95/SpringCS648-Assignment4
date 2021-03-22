@@ -1,12 +1,12 @@
-# Assignment 3
+# Assignment 4
 
-## Inventory Management Application - With GraphQL
+## Inventory Management Application - GraphQL + MongoDB + ESLint
 
-### Repository for Assignment 3 of CS648-C1 (Spring 2021)
+### Repository for Assignment 4 of CS648-C1 (Spring 2021)
 
 #### About
 
-This repository contains creation of Inventory Management application using React components, React state & GraphQL
+This repository contains creation of Inventory Management application using React components, React state, GraphQL, MongoDB Atlas and ESLint
 
 ### Assignment Information
 
