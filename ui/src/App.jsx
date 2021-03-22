@@ -106,7 +106,7 @@ class ProductList extends React.Component {
             }
         }`;
 
-        const response = await fetch('/graphql', {
+        const response = await fetch(window.ENV.UI_API_ENDPOINT, {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({query})
@@ -123,7 +123,7 @@ class ProductList extends React.Component {
             }
         }`;
 
-        const response = await fetch('/graphql', {
+        const response = await fetch(window.ENV.UI_API_ENDPOINT, {
              method: 'POST',
              headers: { 'Content-type': 'application/json'},
              body: JSON.stringify({ query, variables: { product } })

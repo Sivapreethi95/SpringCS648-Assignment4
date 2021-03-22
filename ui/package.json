@@ -1,28 +1,28 @@
 {
-  "name": "springcs648-assignment3",
+  "name": "springcs648-assignment4-ui",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon -w server -e js,graphql server/server.js",
+    "start": "nodemon -w uiserver.js -w .env uiserver.js",
     "compile": "babel src --out-dir public",
     "watch": "babel src --out-dir public --watch --verbose",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sivapreethi95/SpringCS648-Assignment3.git"
+    "url": "git+https://github.com/Sivapreethi95/SpringCS648-Assignment4.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Sivapreethi95/SpringCS648-Assignment3/issues"
+    "url": "https://github.com/Sivapreethi95/SpringCS648-Assignment4/issues"
   },
-  "homepage": "https://github.com/Sivapreethi95/SpringCS648-Assignment3#readme",
+  "homepage": "https://github.com/Sivapreethi95/SpringCS648-Assignment4#readme",
   "dependencies": {
-    "apollo-server-express": "^2.21.0",
+    "dotenv": "^6.2.0",
     "express": "^4.17.1",
-    "graphql": "^0.13.2",
+    "http-proxy-middleware": "^0.21.0",
     "nodemon": "^2.0.7"
   },
   "devDependencies": {
